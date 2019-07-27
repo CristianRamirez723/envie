@@ -1,7 +1,24 @@
 .back {
   background-color: rgba(0, 0, 0, 0.1);
+  max-width: 1980px;
+  max-height: 100%;
 }
 .padd {
   padding-left: 2.5%;
+}
 
+.col {
+  border: 2px solid red;
+}
+
+@media screen and (max-width: 768px ) {
+  img{
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 350px ) {
+  img{
+    width: 345px;
+  }
 }
